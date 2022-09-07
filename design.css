@@ -1,0 +1,409 @@
+    * {
+        top: 0px;
+        left: 0px;
+    }
+    
+    .main {
+        position: relative;
+    }
+    
+    .header * :hover {
+        background-color: transparent;
+    }
+    
+    .body * :hover {
+        background-color: transparent;
+    }
+    /*------------------------------------------------------------- header*/
+    
+    .header {
+        top: 0px;
+        width: 100%;
+        height: 50px;
+        padding: 3px;
+        box-shadow: 0px 0px 2px 1px rgba(105, 104, 104, 0.3);
+        background-color: white;
+        margin-bottom: 10px;
+        position: fixed;
+        z-index: 1000;
+        opacity: 97%;
+    }
+    /* Youtube logo area */
+    
+    .header1 {
+        width: 980px;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .menu {
+        margin-top: 14px;
+        float: left;
+        margin-right: 30px;
+        color: #606060;
+        width: 20px;
+        image-rendering: pixelated;
+    }
+    
+    .youtube {
+        width: 90px;
+        float: left;
+        margin-top: 16px;
+    }
+    
+    .vn {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-family: 'Roboto', sans-serif;
+        color: #212121;
+        font-weight: 400;
+        font-size: 10px;
+        float: left;
+    }
+    /* end */
+    /* Find bar and search bar area */
+    
+    .findbar {
+        background-image: url(keyboard-solid.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position-x: 525px;
+        background-position-y: center;
+        width: 563px;
+        font-family: 'Roboto', Arial, sans-serif;
+        padding: 4px 0px 4px 10px;
+        font-size: 17px;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 0.5px 1px #ccc;
+        left: 50%;
+        top: 50%;
+        margin-top: -15px;
+        margin-left: -350px;
+        position: absolute;
+        z-index: 10;
+    }
+    
+    input,
+    .findbar {
+        outline: none;
+        border: 1px solid #DDDDDD;
+    }
+    
+    input:focus,
+    .findbar:focus {
+        box-shadow: inset 0 0 0.5px 1px #ccc;
+        border: 1px solid #065fd4;
+    }
+    
+    .searchbar i {
+        color: rgb(148, 148, 148);
+        font-size: 21px;
+        top: 50%;
+        left: 50%;
+        margin-top: -10px;
+        margin-left: -10px;
+        position: absolute;
+    }
+    
+    .searchbar {
+        background-color: rgb(248, 248, 248);
+        width: 65px;
+        height: 28px;
+        border: solid 1px #D8D8D8;
+        top: 50%;
+        left: 70%;
+        margin-top: -15px;
+        margin-left: -47px;
+        float: left;
+        position: absolute;
+        z-index: 5;
+    }
+    
+    .searchbar:hover,
+    a :hover {
+        background-color: rgb(223, 223, 223);
+        color: black;
+    }
+    
+    .mic {
+        margin-top: 15px;
+        color: #606060;
+        float: right;
+        font-size: 20px;
+    }
+    /* end */
+    /* icon area */
+    
+    .header2 {
+        height: auto;
+        float: right;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+    .video_icon {
+        margin-right: 25px;
+        color: #535353;
+        float: left;
+    }
+    /*------------------------------------------------------- end  header*/
+    /*--------------------------------------------------------body */
+    
+    .body {
+        width: 100%;
+        height: 1500px;
+        background-color: #F9F9F9;
+        margin-top: 50px;
+        position: relative;
+        z-index: 10;
+    }
+    /*-----------leftbody*/
+    
+    .leftbody {
+        margin-right: 20px;
+        font-family: 'Roboto', Arial, sans-serif;
+        left: 30px;
+        top: 25px;
+        width: 855px;
+        position: absolute;
+    }
+    
+    .leftbody div {
+        font-weight: 400;
+    }
+    /* taskbar */
+    
+    .taskbar {
+        margin-top: -4px;
+        padding: 20px 0px 20px 0;
+        height: 70px;
+        border-bottom: #e0e0e0 1px solid;
+    }
+    
+    .h3 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    
+    .h4 {
+        display: inline;
+        float: left;
+        margin-top: 12px;
+        font-size: 14px;
+        color: #606060;
+    }
+    
+    .h5 {
+        font-size: 12px;
+        color: #065fd4;
+    }
+    
+    .taskbar2 {
+        margin-top: 10px;
+        float: right;
+    }
+    
+    .taskbar2 span {
+        float: right;
+        margin-right: 20px;
+        line-height: 25px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #606060;
+    }
+    
+    .taskbar2 a {
+        float: right;
+        margin-right: 10px;
+        color: #909090;
+    }
+    /* end taskbar */
+    /*author */
+    
+    .author {
+        height: 100px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        border-bottom: #e0e0e0 1px solid;
+    }
+    
+    .avatar {
+        width: 50px;
+        margin-right: 15px;
+        float: left;
+    }
+    /* end author*/
+    /*comment*/
+    
+    .name {
+        float: left;
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .follow {
+        float: left;
+        margin-top: 1px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #606060;
+    }
+    
+    #sign_up {
+        margin-top: -18px;
+        border-radius: 2px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 37px;
+        font-size: 14px;
+        color: white;
+        float: right;
+        width: 94px;
+        height: 37px;
+        background-color: #CC0000;
+        text-decoration: none;
+    }
+    
+    #sign_up :hover {
+        background-color: #CC0000;
+    }
+    
+    .message {
+        color: #606060;
+        margin-left: 65px;
+        margin-top: 5px;
+        font-size: 14px;
+        float: left;
+    }
+    
+    .count_comment {
+        color: black;
+        margin-right: 50px;
+        float: left;
+    }
+    
+    .sort_icon {
+        color: #606060;
+        float: left;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+    
+    .comment {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        float: left;
+        display: block;
+    }
+    
+    .small_avatar {
+        float: left;
+        width: 40px;
+        margin-right: 15px;
+    }
+    
+    .comment_bar {
+        float: left;
+        border-bottom: #E0E0E0 1px solid;
+        font-size: 14px;
+        width: 800px;
+        height: 28px;
+    }
+    
+    .comment input {
+        float: left;
+        width: 795px;
+        height: 25px;
+    }
+    
+    input,
+    textarea .comment_bar {
+        outline: none;
+        border: none;
+        background-color: #F9F9F9;
+    }
+    
+    input:focus,
+    textarea:focus .comment_bar {
+        box-shadow: none;
+        border: none;
+        border-bottom: #030303 2px solid;
+    }
+    
+    .comment1 {
+        margin-top: 30px;
+        width: 757px;
+        margin-bottom: 10px;
+        float: left;
+        display: block;
+    }
+    
+    .comment2 {
+        margin-top: 5px;
+        font-weight: 400;
+        color: #030303;
+        font-size: 14px;
+        float: left;
+    }
+    
+    .like {
+        margin-left: 55px;
+        float: left;
+        color: #606060;
+    }
+    
+    .like span {
+        float: right;
+        margin-right: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #606060;
+    }
+    
+    .like a i {
+        float: right;
+        font-size: 14px;
+        margin-right: 10px;
+        color: #909090;
+    }
+    /*end comment*/
+    /*----------- end leftbody*/
+    /*------------rightbody*/
+    
+    .rightbody {
+        font-family: 'Roboto', Arial, sans-serif;
+        width: 426px;
+        height: 1500;
+        float: right;
+    }
+    
+    .pic i {
+        margin-left: 50px;
+        font-size: 60px;
+    }
+    
+    .pic {
+        background-color: white;
+        background-size: 168px;
+        font-size: 80px;
+        float: left;
+        width: 168px;
+        height: 94px;
+        margin-right: 10px;
+    }
+    
+    .V a {
+        text-decoration: none;
+        color: #030303;
+    }
+    
+    .rightbody a span i {
+        opacity: 0;
+    }
+    
+    .rightbody a span :hover {
+        opacity: 1;
+        background-color: transparent;
+    }
+    /*-----------end leftbody*/
